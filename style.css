@@ -18,6 +18,7 @@
     --first-color-alt: #4384c9;
     --first-color-text: #ffff;
     --second-color-text: #003679;
+    --third-color-text: #d0e0f1;
   }
 
 body {
@@ -292,7 +293,7 @@ img {
   box-shadow: 0 0 24px rgba(0, 0, 0, 0.2); }
 
 .tooltip .arrow::before {
-  border-bottom-color: #ffbb38; }
+  border-bottom-color: var(--first-color); }
 
 .bg-img {
   background-position: center center;
@@ -357,20 +358,21 @@ img {
     font-size: 18px;
     display: block; }
   #scrollUp:hover {
-    background-color: #ffbb38;
-    color: #ffffff; }
+    background-color: #ffff;
+    color: var(--first-color); }
 
 /* :: 3.7.0 Credit Button */
 .credit-btn {
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
-  background-color: #ffbb38;
+  background-color: var(--first-color);
   position: relative;
   z-index: 1;
   display: inline-block;
   min-width: 175px;
   height: 48px;
   color: #ffffff;
+  border: 1px solid #fff;
   border-radius: 5px;
   padding: 0 30px;
   font-size: 14px;
@@ -380,18 +382,18 @@ img {
   .credit-btn:hover, .credit-btn:focus {
     font-size: 14px;
     font-weight: 700;
-    background-color: #003679;
-    color: #ffffff; }
+    background-color: #ffffff;
+    color: var(--first-color); }
   .credit-btn.btn-2 {
     background-color: #003679;
     color: #ffffff; }
     .credit-btn.btn-2:hover, .credit-btn.btn-2:focus {
-      background-color: #ffbb38;
-      color: #ffffff; }
+      background-color: #ffffff;
+      color: var(--first-color); }
   .credit-btn.btn-3 {
     background-color: transparent;
     color: #003679;
-    border: 2px solid #003679;
+    border: 2px solid #f1f7f9;
     line-height: 44px; }
     .credit-btn.btn-3:hover, .credit-btn.btn-3:focus {
       border: 2px solid #003679;
@@ -600,7 +602,7 @@ img {
         left: 10px; } }
     .hero-area .owl-prev:hover,
     .hero-area .owl-next:hover {
-      background-color: #ffbb38;
+      background-color: var(--first-color);
       color: #ffffff; }
   .hero-area .owl-next {
     left: auto;
@@ -665,7 +667,7 @@ img {
       margin-bottom: 10px;
       text-transform: uppercase; }
       .single-slide .welcome-text h2 span {
-        color: #ffbb38; }
+        color: red; }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .single-slide .welcome-text h2 {
           font-size: 48px; } }
@@ -1872,5 +1874,3 @@ img {
     color: #fff; }
 
 /* ====== The End ====== */
-
-/*# sourceMappingURL=style.css.map */
