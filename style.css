@@ -19,6 +19,7 @@
     --second-color:#0477BF;
     --third-color:#F2F2F2;
     --fourth-color: #0D0D0D;
+    --fifth-color:#04bf26;
     --first-color-text: #ffff;
     --second-color-text: #003679;
     --third-color-text: #d0e0f1;
@@ -473,7 +474,7 @@ img {
         padding: 0 15px;
         color: #ffffff; }
         .header-area .credit-main-menu .classy-navbar .classynav ul li a:hover, .header-area .credit-main-menu .classy-navbar .classynav ul li a:focus {
-          color: #ffbb38; }
+          color: var(--fifth-color); }
         @media only screen and (min-width: 992px) and (max-width: 1199px) {
           .header-area .credit-main-menu .classy-navbar .classynav ul li a {
             font-size: 14px; } }
@@ -581,7 +582,7 @@ img {
       border-radius: 50%;
       margin: 0 6px; }
       .hero-area .owl-dots .owl-dot.active {
-        background-color: #38ff3b; }
+        background-color: var(--second-color); }
   .hero-area .owl-prev,
   .hero-area .owl-next {
     position: absolute;
@@ -592,7 +593,7 @@ img {
     margin-top: -23px;
     font-size: 18px;
     color: #ffffff;
-    background-color: #167900;
+    background-color: var(--second-color);
     left: 20px;
     text-align: center;
     -webkit-transition-duration: 500ms;
@@ -949,7 +950,7 @@ img {
     .single-news-area .news-content span {
       font-size: 10px;
       color: #ffffff;
-      background-color: #ffbb38;
+      background-color: var(--second-color);
       padding: 3px 15px;
       border-radius: 30px;
       display: inline-block;
@@ -960,7 +961,7 @@ img {
       font-size: 16px;
       margin-bottom: 0; }
       .single-news-area .news-content a:hover, .single-news-area .news-content a:focus {
-        color: #ffbb38; }
+        color: #04bf26; }
     .single-news-area .news-content .news-meta a {
       position: relative;
       z-index: 1;
@@ -1019,7 +1020,7 @@ img {
         color: #ffffff;
         text-align: center;
         margin-right: 15px;
-        background-color: #ffbb38; }
+        background-color: var(--second-color); }
       .contact--area .contact-content .single-contact-content .text p {
         font-weight: 600;
         color: #212121;
@@ -1038,15 +1039,15 @@ img {
   .contact--area.contact-page .contact-content {
     padding: 35px;
     border: none;
-    background-color: #003679; }
+    background-color: var(--third-color); }
     .contact--area.contact-page .contact-content h5 {
-      color: #ffffff;
+      color: var(--second-color);
       font-weight: 600;
       font-size: 18px;
       margin-bottom: 35px; }
     .contact--area.contact-page .contact-content .single-contact-content .text p,
     .contact--area.contact-page .contact-content .single-contact-content .text span {
-      color: #ffffff; }
+      color: var(--second-color); }
 
 /* :: 9.0 Newsletter Area CSS */
 .newsletter-area {
@@ -1267,7 +1268,7 @@ img {
     .breadcrumb-area .breadcrumb-content .breadcrumb .breadcrumb-item::before {
       color: #ffffff; }
     .breadcrumb-area .breadcrumb-content .breadcrumb .breadcrumb-item.active {
-      color: #ffbb38;
+      color: var(--fifth-color);
       font-size: 16px;
       font-weight: 600; }
     .breadcrumb-area .breadcrumb-content .breadcrumb .breadcrumb-item a {
@@ -1275,7 +1276,7 @@ img {
       color: #ffffff;
       font-weight: 600; }
       .breadcrumb-area .breadcrumb-content .breadcrumb .breadcrumb-item a:hover {
-        color: #ffbb38; }
+        color: var(--fifth-color); }
 
 .single-latest-news-area {
   position: relative;
@@ -1345,7 +1346,7 @@ img {
     .single-blog-area .blog-content span {
       font-size: 10px;
       color: #ffffff;
-      background-color: #ffbb38;
+      background-color: var(--second-color);
       padding: 3px 15px;
       border-radius: 30px;
       display: inline-block;
@@ -1357,7 +1358,7 @@ img {
       margin-bottom: 0;
       color: #212121; }
       .single-blog-area .blog-content .post-title:hover, .single-blog-area .blog-content .post-title:focus {
-        color: #ffbb38; }
+        color: var(--second-color); }
     .single-blog-area .blog-content .blog-meta {
       margin-bottom: 30px; }
       .single-blog-area .blog-content .blog-meta a {
@@ -1413,10 +1414,10 @@ img {
     margin-right: 2px; }
     .pagination .page-item .page-link:hover, .pagination .page-item .page-link:focus {
       color: #ffffff;
-      background-color: #ffbb38; }
+      background-color: var(--second-color); }
   .pagination .page-item.active .page-link {
     color: #ffffff;
-    background-color: #ffbb38; }
+    background-color: var(--second-color); }
 
 .sidebar-area {
   position: relative;
@@ -1471,14 +1472,14 @@ img {
         right: 0;
         z-index: 99;
         background-color: #003679;
-        color: #ffbb38;
+        color: var(--second-color);
         font-weight: 600;
         font-size: 14px;
         text-transform: uppercase;
         border-radius: 5px;
         cursor: pointer; }
         .single-widget-area.search-widget form button:hover {
-          background-color: #ffbb38;
+          background-color: var(--second-color);
           color: #003679; }
   .single-widget-area.cata-widget ul {
     padding-left: 35px; }
@@ -1487,9 +1488,9 @@ img {
       font-size: 15px;
       padding: 7px 0;
       font-weight: 600;
-      color: #003679; }
+      color: var(--fourth-color); }
       .single-widget-area.cata-widget ul li a:hover, .single-widget-area.cata-widget ul li a:focus {
-        color: #ffbb38; }
+        color: var(--second-color); }
 
 .comment_area {
   border-bottom: 1px solid #eaeaea;
@@ -1563,11 +1564,11 @@ img {
 .contact-advisor {
   position: relative;
   z-index: 1;
-  background-color: #ffbb38;
+  background-color: var(--third-color);
   padding: 35px; }
   .contact-advisor h5 {
     font-size: 18px;
-    color: #ffffff;
+    color: var(--fourth-color);
     font-weight: 600;
     margin-bottom: 40px; }
   .contact-advisor .single-advisor {
@@ -1584,7 +1585,7 @@ img {
       width: 80px;
       margin-right: 30px; }
     .contact-advisor .single-advisor .advisor-info h6 {
-      color: #ffffff;
+      color: var(--fourth-color);
       margin-bottom: 5px;
       font-weight: 600; }
     .contact-advisor .single-advisor .advisor-info span {
@@ -1592,13 +1593,13 @@ img {
       text-transform: capitalize;
       margin-bottom: 15px;
       display: block;
-      color: #ffffff; }
+      color: var(--second-color); }
     .contact-advisor .single-advisor .advisor-info p {
       font-size: 14px;
       margin-bottom: 0;
       line-height: 1;
       font-weight: 700;
-      color: #ffffff; }
+      color: var(--first-color-alt); }
 
 .contact-form-area .form-control {
   position: relative;
@@ -1786,7 +1787,7 @@ img {
     .single-accordion h6 a.collapsed {
       -webkit-transition-duration: 500ms;
       transition-duration: 500ms;
-      background-color: #ffbb38;
+      background-color: var(--fifth-color);
       color: #ffffff; }
 .single-accordion .accordion-content {
   border-top: 0 solid transparent;
