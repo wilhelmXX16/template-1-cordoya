@@ -251,7 +251,7 @@ img {
     width: 25px;
     height: 5px;
     border-radius: 3px;
-    background-color: #ffbb38;
+    background-color: var(--first-color);
     margin-bottom: 20px; }
   .section-heading p {
     font-size: 12px;
@@ -844,7 +844,7 @@ img {
     flex: 0 0 50%;
     max-width: 50%;
     width: 50%;
-    background-color: #ffbb38; }
+    background-color: var(--first-color); }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .cta-area .cta-content {
         -webkit-box-flex: 0;
@@ -1437,7 +1437,7 @@ img {
     .single-widget-area .widget-heading .line {
       width: 30px;
       height: 8px;
-      background-color: #ffbb38;
+      background-color: var(--first-color);
       border-radius: 5px;
       display: block;
       margin-bottom: 15px; }
