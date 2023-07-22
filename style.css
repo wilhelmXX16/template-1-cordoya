@@ -14,8 +14,11 @@
   padding: 0; }
 
   :root {
-    --first-color: #003679;
-    --first-color-alt: #4384c9;
+    --first-color: #141259;
+    --first-color-alt: #2B308C;
+    --second-color:#0477BF;
+    --third-color:#F2F2F2;
+    --fourth-color: #0D0D0D;
     --first-color-text: #ffff;
     --second-color-text: #003679;
     --third-color-text: #d0e0f1;
@@ -148,7 +151,7 @@ img {
 
 /* :: 3.4.0 Preloader */
 .preloader {
-  background-color: #003679;
+  background-color: var(--second-color);
   width: 100%;
   height: 100%;
   position: fixed;
@@ -167,7 +170,7 @@ img {
       width: 11px;
       height: 11px;
       border-radius: 50%;
-      background: #ffbb38;
+      background: var(--first-color-text);
       animation-timing-function: cubic-bezier(0, 1, 1, 0); }
       .preloader .lds-ellipsis div:nth-child(1) {
         left: 6px;
@@ -251,7 +254,7 @@ img {
     width: 25px;
     height: 5px;
     border-radius: 3px;
-    background-color: var(--first-color);
+    background-color: var(--second-color);
     margin-bottom: 20px; }
   .section-heading p {
     font-size: 12px;
@@ -293,7 +296,7 @@ img {
   box-shadow: 0 0 24px rgba(0, 0, 0, 0.2); }
 
 .tooltip .arrow::before {
-  border-bottom-color: var(--first-color); }
+  border-bottom-color: var(--second-color); }
 
 .bg-img {
   background-position: center center;
@@ -338,7 +341,7 @@ img {
 
 /* :: 3.6.0 ScrollUp */
 #scrollUp {
-  background-color: #003679;
+  background-color: var(--second-color);
   border-radius: 5px 0 0 5px;
   bottom: 70px;
   color: #ffffff;
@@ -359,13 +362,13 @@ img {
     display: block; }
   #scrollUp:hover {
     background-color: #ffff;
-    color: var(--first-color); }
+    color: var(--second-color); }
 
 /* :: 3.7.0 Credit Button */
 .credit-btn {
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
-  background-color: var(--first-color);
+  background-color: var(--second-color);
   position: relative;
   z-index: 1;
   display: inline-block;
@@ -382,14 +385,15 @@ img {
   .credit-btn:hover, .credit-btn:focus {
     font-size: 14px;
     font-weight: 700;
+    border: 2px solid var(--first-color-alt);
     background-color: #ffffff;
-    color: var(--first-color); }
+    color: var(--first-color-alt); }
   .credit-btn.btn-2 {
-    background-color: #003679;
-    color: #ffffff; }
+    background-color: var(--first-color-text);
+    color: var(--second-color); }
     .credit-btn.btn-2:hover, .credit-btn.btn-2:focus {
-      background-color: #ffffff;
-      color: var(--first-color); }
+      background-color: var(--first-color-alt);
+      color: var(--third-color); }
   .credit-btn.btn-3 {
     background-color: transparent;
     color: #003679;
@@ -435,7 +439,7 @@ img {
         .header-area .top-header-area .top-contact-info a:first-child {
           margin-right: 30px; }
         .header-area .top-header-area .top-contact-info a:hover, .header-area .top-header-area .top-contact-info a:focus {
-          color: #003679; }
+          color: var(--second-color); }
         @media only screen and (min-width: 768px) and (max-width: 991px) {
           .header-area .top-header-area .top-contact-info a {
             font-size: 13px; } }
@@ -443,11 +447,11 @@ img {
     position: relative;
     width: 100%;
     z-index: 1;
-    background-color: #ffbb38; }
+    background-color: var(--third-color); }
     .header-area .credit-main-menu::after {
       width: 50%;
       height: 100%;
-      background-color: #003679;
+      background-color: var(--second-color);
       position: absolute;
       top: 0;
       left: 0;
@@ -458,7 +462,7 @@ img {
     .header-area .credit-main-menu .classy-navbar {
       height: 85px;
       padding: 0;
-      background-color: #003679; }
+      background-color: var(--second-color); }
       @media only screen and (max-width: 767px) {
         .header-area .credit-main-menu .classy-navbar {
           height: 70px; } }
@@ -520,7 +524,7 @@ img {
           top: 42%;
           left: 0;
           z-index: -1;
-          background-color: #ffbb38;
+          background-color: var(--third-color);
           -webkit-transform: rotate(30deg);
           transform: rotate(30deg); }
         .header-area .credit-main-menu .classy-navbar .contact::after {
@@ -531,7 +535,7 @@ img {
           top: 0;
           left: 62px;
           z-index: -1;
-          background-color: #ffbb38; }
+          background-color: var(--third-color); }
         .header-area .credit-main-menu .classy-navbar .contact a {
           display: inline-block;
           font-size: 24px;
@@ -539,7 +543,7 @@ img {
           font-weight: 700;
           line-height: 85px; }
           .header-area .credit-main-menu .classy-navbar .contact a:hover {
-            color: #ffffff; }
+            color: #bf4b03; }
           @media only screen and (min-width: 992px) and (max-width: 1199px) {
             .header-area .credit-main-menu .classy-navbar .contact a {
               font-size: 20px; } }
@@ -647,7 +651,7 @@ img {
     z-index: 10;
     width: 0;
     height: 2px;
-    background-color: #ffbb38;
+    background-color: var(--second-color);
     left: 0;
     bottom: 0;
     -webkit-animation: slide-du-indicator linear 10000ms infinite;
@@ -727,7 +731,7 @@ img {
       .single-features-area h5 {
         font-size: 15px; } }
   .single-features-area:hover h5 {
-    color: #ffbb38; }
+    color: var(--second-color); }
 
 /* :: 7.0 Special Feature CSS */
 .special-feature-area {
@@ -739,7 +743,7 @@ img {
     flex: 0 0 50%;
     max-width: 50%;
     width: 50%;
-    background-color: #ffbb38; }
+    background-color: var(--second-color); }
     @media only screen and (max-width: 767px) {
       .special-feature-area .special-feature-content {
         -webkit-box-flex: 0;
@@ -844,7 +848,7 @@ img {
     flex: 0 0 50%;
     max-width: 50%;
     width: 50%;
-    background-color: var(--first-color); }
+    background-color: var(--second-color); }
     @media only screen and (min-width: 768px) and (max-width: 991px) {
       .cta-area .cta-content {
         -webkit-box-flex: 0;
@@ -878,14 +882,14 @@ img {
 .cta-2-area {
   position: relative;
   z-index: 1;
-  background-color: #003679;
+  background-color: var(--third-color);
   padding-top: 50px; }
   .cta-2-area .cta-content .cta-text {
     position: relative;
     z-index: 1;
     margin-bottom: 50px; }
     .cta-2-area .cta-content .cta-text h4 {
-      color: #ffffff;
+      color: var(--first-color-alt);
       font-family: "Open Sans", sans-serif;
       margin-bottom: 0;
       font-weight: 600; }
@@ -893,7 +897,7 @@ img {
         .cta-2-area .cta-content .cta-text h4 {
           font-size: 18px; } }
     .cta-2-area .cta-content .cta-text p {
-      color: #ffffff;
+      color: var(--second-color-text);
       font-size: 14px;
       margin-bottom: 0; }
     @media only screen and (max-width: 767px) {
