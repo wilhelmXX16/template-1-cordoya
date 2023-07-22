@@ -672,7 +672,7 @@ img {
       margin-bottom: 10px;
       text-transform: uppercase; }
       .single-slide .welcome-text h2 span {
-        color: red; }
+        color: var(--third-color); }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .single-slide .welcome-text h2 {
           font-size: 48px; } }
@@ -1876,6 +1876,20 @@ img {
     color: #fff; }
   .single-icons span {
     display: block;
-    color: #fff; }
+    color: #fff; 
+  }
+
+  /* miselanius */
+.miscellaneous-area{
+}
+.video {
+  height: 380px;
+  width: 350;
+}
+@media only screen and (max-width: 767px) {
+  .video {
+    width: 300px;
+    margin-right: 19px;
+  } }
 
 /* ====== The End ====== */
