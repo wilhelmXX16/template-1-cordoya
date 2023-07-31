@@ -1699,9 +1699,9 @@ img {
   .single-service-area .text p {
     margin-bottom: 0; }
   .single-service-area:hover .icon, .single-service-area:focus .icon {
-    background-color: #ffbb38; }
+    background-color: var(--fifth-color); }
   .single-service-area:hover .text h5, .single-service-area:focus .text h5 {
-    color: #ffbb38; }
+    color: var(--fifth-color); }
 
 .single-cool-fact {
   position: relative;
